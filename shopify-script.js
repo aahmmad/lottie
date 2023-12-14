@@ -1,6 +1,14 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2758
-\cocoatextscaling0\cocoaplatform0{\fonttbl}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-}
+// Create a style element
+var style = document.createElement('style');
+
+// Add CSS to the style element
+style.innerHTML = `
+
+ div#shopify-section-template--16320972718257__heading{
+     opacity:.5!important;
+ }
+ 
+`;
+
+// Append the style element to the head of the document
+document.head.appendChild(style);
